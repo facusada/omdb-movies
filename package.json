@@ -1,0 +1,35 @@
+{
+  "name": "react-omdb-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-cli serve --mode development --open",
+    "production": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "bootswatch": "^4.5.3",
+    "css-loader": "^5.0.1",
+    "dotenv-webpack": "^6.0.0",
+    "eslint": "^7.17.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.22.0",
+    "html-webpack-plugin": "^4.5.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
