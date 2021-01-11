@@ -37,7 +37,7 @@ class List extends React.Component {
     const data = await res.json();
 
     if (!data) {
-      return  this.setState({ error: 'There are no results' });
+      return this.setState({ error: 'There are no results' });
     }
 
     this.setState({ data: data.Search, error: '', searchTerm: '' })

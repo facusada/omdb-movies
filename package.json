@@ -1,9 +1,12 @@
 {
   "name": "react-omdb-app",
   "version": "1.0.0",
+  "homepage": "http://facusada.github.io/omdb-movies",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run production",
+    "deploy": "gh-pages -d main",
     "start": "webpack-cli serve --mode development --open",
     "production": "webpack --mode production"
   },
@@ -21,6 +24,7 @@
     "eslint": "^7.17.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-react": "^7.22.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.5.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
